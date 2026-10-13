@@ -1,0 +1,55 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>めたん先生のIT試験ゼミ｜台本で読む</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap">
+<style>
+:root{--bg:#fbfaf6;--paper:#fff;--fg:#17233a;--sub:#4a5872;--line:#d9e0ea;--grid:#e9eef4;--mk:#ffe066;
+  --z:#3f9a2e;--m:#c4508f;--zb:#eef8ea;--mb:#fbeef5;--accent:#2f5d9e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11161d;--paper:#1a212b;--fg:#e6ebf1;--sub:#a3afbf;
+  --line:#2c3644;--grid:#161c25;--mk:#8a7420;--z:#7fcf6a;--m:#ef8fc2;--zb:#1b2a1c;--mb:#2c1d27;--accent:#8db4ea;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11161d;--paper:#1a212b;--fg:#e6ebf1;--sub:#a3afbf;--line:#2c3644;--grid:#161c25;--mk:#8a7420;
+  --z:#7fcf6a;--m:#ef8fc2;--zb:#1b2a1c;--mb:#2c1d27;--accent:#8db4ea;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  line-height:1.8;font-size:16px;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+a{color:var(--accent)}
+.wrap{max-width:780px;margin:0 auto;padding:24px 16px 64px}
+header.top{display:flex;align-items:center;gap:10px;font-weight:900;margin-bottom:18px}
+header.top a{color:var(--fg);text-decoration:none}
+header.top .mk{background:linear-gradient(transparent 60%,var(--mk) 60%)}
+.tag{display:inline-block;background:var(--fg);color:var(--bg);font-weight:900;font-size:13px;padding:2px 10px;border-radius:6px}
+h1{font-size:28px;line-height:1.35;margin:10px 0 6px}
+h2{font-size:21px;margin:36px 0 10px;padding-bottom:4px;border-bottom:3px solid var(--mk)}
+.lead{color:var(--sub)}
+.video{position:relative;aspect-ratio:16/9;margin:16px 0;border-radius:12px;overflow:hidden;border:2px solid var(--fg);background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.toc{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 18px}
+.toc ol{margin:0;padding-left:1.4em}
+.board{background:var(--paper);border:2px solid var(--fg);border-radius:14px;padding:14px 18px;margin:18px 0;box-shadow:5px 5px 0 var(--fg)}
+.board .hd{font-weight:900;font-size:18px;margin-bottom:6px}
+.board .big{font-weight:900;font-size:24px;line-height:1.4}
+.board .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.board .chips span{background:var(--mk);color:#17233a;font-weight:700;font-size:14px;padding:2px 10px;border-radius:999px}
+.board ul,.board ol{margin:4px 0;padding-left:1.4em}
+.board dl{margin:0}.board dt{font-weight:900;margin-top:6px}.board dd{margin:0 0 4px;color:var(--sub)}
+.board table{border-collapse:collapse;width:100%;font-size:15px}
+.board th,.board td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.board td b{display:block}
+.src{font-size:12px;color:var(--sub);margin-top:8px}
+.quiz .q{font-weight:900}
+.quiz details{margin-top:8px;background:var(--bg);border-radius:8px;padding:6px 12px}
+.quiz summary{cursor:pointer;font-weight:900;color:var(--accent)}
+.say{display:flex;gap:10px;margin:10px 0;align-items:flex-start}
+.say img{width:44px;height:44px;border-radius:50%;flex:none;background:var(--paper);border:2px solid var(--line);object-fit:cover}
+.say .b{border-radius:12px;padding:8px 12px;max-width:100%}
+.say .n{font-size:12px;font-weight:900}
+.say.zundamon .b{background:var(--zb)}.say.zundamon .n{color:var(--z)}
+.say.metan{flex-direction:row-reverse}.say.metan .b{background:var(--mb)}.say.metan .n{color:var(--m);text-align:right}
+.foot{margin-top:40px;font-size:13px;color:var(--sub);border-top:1px solid var(--line);padding-top:14px}
+.list a{display:block;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0;text-decoration:none;color:var(--fg)}
+.list a b{display:block;font-size:17px}.list a span{font-size:13px;color:var(--sub)}
+</style></head><body><div class="wrap">
+<header class="top"><span class="mk" style="font-size:24px">めたん先生のIT試験ゼミ</span></header>
+<p class="lead">応用情報技術者試験・情報処理安全確保支援士試験の解説動画を、台本のまま文字で読めます。</p>
+<h2>応用情報 午後｜セキュリティ</h2><div class="list"><a href="pm1_r07a.html"><b>午後問1の解き方 ― 企業グループのセキュリティ対策（令和7年度秋期）</b><span>令和7年度秋期 応用情報技術者試験 午後 問1（情報セキュリティ・必須）を、ずんだもんと四国めたんの対話で解きます。境界防御とサプライチェーン攻撃、SIEM・S…</span></a></div><h2>応用情報 午後｜ネットワーク</h2><div class="list"><a href="pm5_r07a.html"><b>午後問5の解き方 ― クラウドサービスへの移行（令和7年度秋期）</b><span>令和7年度秋期 応用情報技術者試験 午後 問5（ネットワーク）を、ずんだもんと四国めたんの対話で解きます。サーバをクラウドへ移すときの DHCP・DNS・NAT…</span></a></div><h2>応用情報 午後｜経営戦略</h2><div class="list"><a href="pm2_r07a.html"><b>令和7年度秋期 午後 問2 スポーツウェアメーカーの事業領域拡大戦略を解く</b><span>令和7年度秋期 応用情報技術者試験 午後 問2（経営戦略）を、ずんだもんと四国めたんの対話で解きます。見出しを地図にして、設問ごとに本文の手がかりから解答例まで…</span></a></div><h2>応用情報｜コンピュータ構成要素</h2><div class="list"><a href="b111_long.html"><b>計算特訓 実効アクセス時間（キャッシュ）とデータ転送時間</b><span>キャッシュの実効アクセス時間の式とヒット率の逆算、データの伝送時間（ビットへの直し方・伝送効率・けた）を説明し、令和4年度春期 問9、令和6年度春期 問10、令…</span></a></div><h2>応用情報｜システム構成要素</h2><div class="list"><a href="b106_long.html"><b>計算特訓 稼働率（直列・並列）と MTBF・MTTR</b><span>稼働率の式（MTBF・MTTR）、直列（かけ算）、並列（1 − 両方止まる確率）、組み合わせを説明し、令和4年度秋期 問14、令和4年度春期 問15、令和5年度…</span></a></div><h2>応用情報｜セキュリティ</h2><div class="list"><a href="b104_long.html"><b>攻撃の手口 ― マルウェアとサイバー攻撃</b><span>ウイルス・ワーム・トロイの木馬・ランサムウェア、ボットネットと C&amp;C サーバ、総当たり・辞書・リバースブルートフォース・パスワードリスト攻撃、フィッシング・標…</span></a><a href="b84_long.html"><b>情報セキュリティの基本 ― CIA・脅威・脆弱性</b><span>情報セキュリティの土台になる言葉を、ずんだもんと四国めたんの対話で整理します。機密性・完全性・可用性（CIA）、真正性・責任追跡性・否認防止、情報資産・脅威・脆…</span></a><a href="b105_long.html"><b>情報セキュリティ10大脅威2026 組織編 1位・2位・4位</b><span>IPA「情報セキュリティ10大脅威 2026」組織編の1位「ランサム攻撃による被害」、2位「サプライチェーンや委託先を狙った攻撃」、4位「システムの脆弱性を悪用…</span></a><a href="b85_long.html"><b>暗号のしくみ ― 共通鍵と公開鍵</b><span>共通鍵暗号方式と公開鍵暗号方式の違い、鍵の数、ハイブリッド暗号、ハッシュ関数（SHA-256）、CRYPTREC 暗号リストと危殆化を、ずんだもんと四国めたんの…</span></a><a href="b108_long.html"><b>メールと Web アプリを守る</b><span>送信元ドメイン認証の SPF（IP アドレス）と DKIM（署名）、DMARC、S/MIME、SQL インジェクション対策（プレースホルダ）・XSS 対策（エス…</span></a><a href="b109_long.html"><b>情報セキュリティ10大脅威2026 組織編 3位・5位・6位</b><span>IPA「情報セキュリティ10大脅威 2026」組織編の3位「AIの利用をめぐるサイバーリスク」、5位「機密情報を狙った標的型攻撃」、6位「地政学的リスクに起因す…</span></a><a href="b86_long.html"><b>認証とデジタル署名・PKI</b><span>デジタル署名で確かめられること、署名鍵と検証鍵の使い方、タイムスタンプ、PKI とデジタル証明書（ルート証明書・中間 CA 証明書）、CRL と OCSP、多要…</span></a></div><h2>応用情報｜ネットワーク</h2><div class="list"><a href="net_basics.html"><b>ネットワークの基本（IPアドレス・DNS・DHCP・NAT・ルーティング）</b><span>IPアドレス、DNS、DHCP、NAT、ルーティングの役割を、ずんだもんと四国めたんの対話で整理します。午後のネットワークの問題を解く前の準備にもなる回です。最…</span></a></div><h2>応用情報｜経営戦略</h2><div class="list"><a href="strategy4.html"><b>成長マトリクス（アンゾフ）</b><span>成長マトリクス（製品・市場マトリクス）の4つの戦略、市場浸透・市場開拓・製品開発・多角化を、ずんだもんと四国めたんの対話で整理します。最後に令和7年度秋期 午前…</span></a><a href="strategy1.html"><b>経営戦略の分析の道具 第1回 SWOT・ファイブフォース・競争の基本戦略</b><span>SWOT分析・ファイブフォース分析・競争の基本戦略（コストリーダーシップ・差別化・集中）を、ずんだもんと四国めたんの対話で整理し、最後に公表済みの午前の過去問に…</span></a><a href="strategy2.html"><b>経営戦略の分析の道具 第2回 PPM</b><span>PPM（プロダクトポートフォリオマネジメント）の2つの軸と、花形・金のなる木・問題児・負け犬の4分類、お金の流れを、ずんだもんと四国めたんの対話で整理し、最後に…</span></a><a href="strategy3.html"><b>経営戦略の分析の道具 第3回 バリューチェーン・VRIO・コアコンピタンス・ドメイン</b><span>バリューチェーン・VRIO分析・コアコンピタンス・ドメインを、ずんだもんと四国めたんの対話で整理し、最後に公表済みの午前の過去問に挑戦します。…</span></a></div>
+<div class="foot">IPA（情報処理推進機構）とは関係ありません。<a href="https://www.youtube.com/channel/UCFPlgxr-u00RDIXYtQfKA2g">YouTube チャンネル</a></div>
+</div></body></html>
